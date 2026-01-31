@@ -4,13 +4,7 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineNuxtConfig({
   devtools: { enabled: true },
 
-  modules: [
-    "@vueuse/nuxt",
-    "@nuxt/fonts",
-    "shadcn-nuxt",
-    "@nuxt/icon",
-    "@nuxtjs/color-mode",
-  ],
+  modules: ["@vueuse/nuxt", "@nuxt/fonts", "shadcn-nuxt", "@nuxt/icon", "@nuxtjs/color-mode"],
 
   future: {
     compatibilityVersion: 4,
