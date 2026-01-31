@@ -10,7 +10,9 @@
     "postinstall": "nuxt prepare",
     "start": "node .output/server/index.mjs",
     "fmt": "oxfmt",
-    "fmt:check": "oxfmt --check"
+    "fmt:check": "oxfmt --check",
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix"
   },
   "dependencies": {
     "@nuxt/fonts": "^0.13.0",
@@ -35,6 +37,7 @@
   "devDependencies": {
     "@tailwindcss/vite": "^4.1.18",
     "oxfmt": "^0.27.0",
+    "oxlint": "^1.42.0",
     "tailwindcss": "^4.1.18"
   },
   "packageManager": "pnpm@10.28.1"
