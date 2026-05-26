@@ -15,6 +15,7 @@
     "lint:fix": "oxlint --fix"
   },
   "dependencies": {
+    "@lucide/vue": "^1.16.0",
     "@nuxt/fonts": "^0.14.0",
     "@nuxt/icon": "^2.2.2",
     "@nuxtjs/color-mode": "^4.0.0",
