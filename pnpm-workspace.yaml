@@ -2,3 +2,35 @@ allowBuilds:
   '@parcel/watcher': set this to true or false
   esbuild: set this to true or false
   vue-demi: set this to true or false
+minimumReleaseAgeExclude:
+  - lodash-es@4.17.23
+  - lodash@4.17.23
+  - tar@7.5.7
+  - tar@7.5.3
+  - tar@7.5.8
+  - minimatch@5.1.7
+  - minimatch@9.0.6
+  - minimatch@5.1.8
+  - minimatch@9.0.7
+  - tar@7.5.10
+  - tar@7.5.11
+  - tar@7.5.4
+  - h3@1.15.6
+  - h3@1.15.9
+  - brace-expansion@2.0.3
+  - picomatch@2.3.2
+  - picomatch@4.0.4
+  - yaml@2.8.3
+  - lodash-es@4.17.24
+  - lodash@4.17.24
+  - defu@6.1.5
+  - postcss@8.5.10
+  - simple-git@3.36.0
+  - fast-uri@3.1.1
+  - fast-uri@3.1.2
+  - hono@4.12.18
+  - ip-address@10.1.1
+  - hono@4.12.16
+  - brace-expansion@5.0.6
+  - ws@8.20.1
+  - qs@6.15.2
